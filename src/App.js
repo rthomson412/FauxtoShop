@@ -1,14 +1,16 @@
 import './App.css';
 import Slider from './Slider';
+import SidebarItem from './SidebarItem';
 
 function App() {
   return (
     <div className='container'>
-      <div className='main-image'>IMAGE</div>
+      <div className='main-image' />
       <div className='sidebar'>
-        SIDEBAR
+        <SidebarItem />
+        <SidebarItem />
       </div>
-      <Slider/>
+      <Slider />
     </div>
   )
 }
