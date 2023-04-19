@@ -72,6 +72,8 @@ background-color: hsla(29, 89%, 72%, 0.766);
   grid-area: slider;
   background-color: yellow;
   margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
   padding: 2rem;
 }
 
