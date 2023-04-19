@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fauxtoshop/static/css/main.8066f653.css",
+    "main.js": "/fauxtoshop/static/js/main.44c4a982.js",
+    "static/js/787.1efec9ad.chunk.js": "/fauxtoshop/static/js/787.1efec9ad.chunk.js",
+    "index.html": "/fauxtoshop/index.html",
+    "main.8066f653.css.map": "/fauxtoshop/static/css/main.8066f653.css.map",
+    "main.44c4a982.js.map": "/fauxtoshop/static/js/main.44c4a982.js.map",
+    "787.1efec9ad.chunk.js.map": "/fauxtoshop/static/js/787.1efec9ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8066f653.css",
+    "static/js/main.44c4a982.js"
+  ]
+}
