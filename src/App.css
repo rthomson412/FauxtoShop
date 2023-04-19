@@ -76,10 +76,14 @@ background-color: hsla(29, 89%, 72%, 0.766);
   background-color: hsla(29, 89%, 82%, 0.766);
   margin-top: 2rem;
   padding: 2rem;
+  width: 80%;
+  margin-left: 10%;
+
 }
 
 .slider {
   width: 100%;
   cursor: pointer;
   background-color: hsla(29, 89%, 82%, 0.766);
+  width: 100%;
 }
