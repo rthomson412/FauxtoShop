@@ -4,18 +4,19 @@
 
 body {
   margin: 0;
+  background-color: hsla(29, 89%, 82%, 0.766);
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr auto;
-  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr 20%;
+  grid-template-rows: 1fr 20%;
   grid-template-areas: 
   "image sidebar"
   "slider sidebar";
   height: 100vh;
   width: 100vw;
-  background-color: #DADADA;
+  background-color: hsla(29, 89%, 82%, 0.766);
 }
 
 .main-image {
@@ -26,6 +27,8 @@ body {
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 20px;
+  background-color: hsla(29, 89%, 82%, 0.766);
 }
 
 .sidebar {
@@ -70,14 +73,13 @@ background-color: hsla(29, 89%, 72%, 0.766);
 
 .slider-container {
   grid-area: slider;
-  background-color: yellow;
+  background-color: hsla(29, 89%, 82%, 0.766);
   margin-top: 2rem;
-  margin-left: 20%;
-  margin-right: 20%;
   padding: 2rem;
 }
 
 .slider {
   width: 100%;
   cursor: pointer;
+  background-color: hsla(29, 89%, 82%, 0.766);
 }
