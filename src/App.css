@@ -4,16 +4,15 @@
 
 body {
   margin: 0;
-  background-color: hsla(29, 89%, 82%, 0.766);
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 20%;
-  grid-template-rows: 1fr 20%;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr auto;
   grid-template-areas: 
-  "image sidebar"
-  "slider sidebar";
+    "image sidebar"
+    "slider sidebar";
   height: 100vh;
   width: 100vw;
   background-color: hsla(29, 89%, 82%, 0.766);
@@ -27,14 +26,12 @@ body {
   background-position: top center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20px;
-  background-color: hsla(29, 89%, 82%, 0.766);
 }
 
 .sidebar {
   grid-area: sidebar;
   background-color: hsla(29, 89%, 82%, 0.766);
-  border-left: 1px solid hsla(29, 89%, 52%, 0.766);
+  border-left: 1px solid hsl(265, 100%, 56%);
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -49,41 +46,37 @@ body {
   position: relative;
   transition: background-color 150ms;
 }
+
+.sidebar-item:hover, .sidebar-item:focus {
+  background-color: hsla(29, 89%, 72%, 0.766);
+}
+
 .sidebar-item.active {
-    background-color: hsla(29, 89%, 65%, 0.766);
-}
-.sidebar-item:hover, sidebar-item:focus {
-background-color: hsla(29, 89%, 72%, 0.766);
-
+  background-color: hsla(29, 89%, 62%, 0.766);
 }
 
-.sidebar-item:after {
+.sidebar-item::after {
   content: '';
   position: absolute;
   width: 80%;
   left: 10%;
   bottom: 0;
   height: 1px;
-  background-color: hsla(29, 89%, 52%, 0.766);
+  background-color: hsla(29, 89%, 55%, 0.766);
 }
 
-.sidebar-item:last-child::after{
+.sidebar-item:last-child::after {
   display: none;
 }
 
 .slider-container {
   grid-area: slider;
-  background-color: hsla(29, 89%, 82%, 0.766);
   margin-top: 2rem;
   padding: 2rem;
-  width: 80%;
-  margin-left: 10%;
-
 }
 
 .slider {
   width: 100%;
   cursor: pointer;
-  background-color: hsla(29, 89%, 82%, 0.766);
-  width: 100%;
 }
+
