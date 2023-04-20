@@ -31,7 +31,7 @@ body {
 .sidebar {
   grid-area: sidebar;
   background-color: hsla(29, 89%, 82%, 0.766);
-  border-left: 1px solid hsl(265, 100%, 56%);
+  border-left: 1px solid hsla(29, 94%, 49%, 0.766);
   display: flex;
   flex-direction: column;
   align-items: stretch;
