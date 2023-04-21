@@ -39,7 +39,7 @@ body {
 }
 
 .sidebar-item {
-  cursor: pointer;
+  cursor:auto;
   border: none;
   outline: none;
   background-color: hsla(29, 89%, 82%, 0.766);
