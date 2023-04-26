@@ -1,5 +1,5 @@
-## A basic photo editor,
-employing CSS filters on an image, 
+## Photo Editor
+Using CSS filters on an image, 
 bootsrapped with React
 and deployed on AWS Amplify.
 
