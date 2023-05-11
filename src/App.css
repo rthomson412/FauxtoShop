@@ -13,8 +13,8 @@ body {
   grid-template-areas: 
     "image sidebar"
     "slider sidebar";
-  height: 99vh;
-  width: 99vw;
+  height: 98vh;
+  width: 98vw;
   background-color: hsla(29, 89%, 82%, 0.766);
 }
 

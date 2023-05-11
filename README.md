@@ -1,3 +1,6 @@
-## A basic photo editor employing CSS filters on an image, bootsrapped with react and deployed on AWS.
+## Photo Editor
+Using CSS filters on an image, 
+bootsrapped with React
+and deployed on AWS Amplify.
 
-### https://main.d3pfy1bu7yw6ge.amplifyapp.com/
+# https://main.d3pfy1bu7yw6ge.amplifyapp.com/
