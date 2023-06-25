@@ -3,6 +3,7 @@ import './App.css';
 import Slider from './Slider'
 import SidebarItem from './SidebarItem'
 
+
 const DEFAULT_OPTIONS = [
   {
     name: 'Brightness',
@@ -116,6 +117,7 @@ function App() {
         })}
       </div>
       <Slider
+
         min={selectedOption.range.min}
         max={selectedOption.range.max}
         value={selectedOption.value}

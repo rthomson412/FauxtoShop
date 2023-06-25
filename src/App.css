@@ -15,10 +15,17 @@ body {
     "slider sidebar";
   height: 98vh;
   width: 98vw;
-  background-color: hsla(29, 89%, 82%, 0.766);
+  --s: 72px; /* control the size */
+
+  background:
+    radial-gradient(#e27d60 24%,#0000 25%),
+    radial-gradient(#e8a87c 30%,#0000 32%) calc(var(--s)/2) calc(var(--s)/2),
+    repeating-conic-gradient(from 30deg,#ECD078 0 30deg,#D95B43 0 90deg);
+  background-size: var(--s) var(--s); 
 }
 
 .main-image {
+  margin-top: 2em;
   grid-area: image;
   background-image: url("https://source.unsplash.com/XucH5JNRFig");
   width: 100%;
@@ -30,12 +37,20 @@ body {
 
 .sidebar {
   grid-area: sidebar;
-  background-color: hsla(29, 89%, 82%, 0.766);
-  border-left: 1px solid hsla(29, 94%, 49%, 0.766);
+  --s: 72px; /* control the size */
+
+  background:
+    radial-gradient(#e27d60 24%,#0000 25%),
+    radial-gradient(#e8a87c 30%,#0000 32%) calc(var(--s)/2) calc(var(--s)/2),
+    repeating-conic-gradient(from 30deg,#ECD078 0 30deg,#D95B43 0 90deg);
+  background-size: var(--s) var(--s); 
   display: flex;
   flex-direction: column;
   align-items: stretch;
   height: fit-content;
+  margin-top: 2em;
+  margin-right: 1em;
+  
 }
 
 .sidebar-item {
@@ -47,14 +62,15 @@ body {
   position: relative;
   transition: background-color 150ms;
   height: 4.55rem;
+  font-size:larger;
 }
 
 .sidebar-item:hover, .sidebar-item:focus {
-  background-color: hsla(29, 89%, 72%, 0.766);
+  background-color: hsla(29, 89%, 79%, 0.766);
 }
 
 .sidebar-item.active {
-  background-color: hsla(29, 89%, 62%, 0.766);
+  background-color: hsla(29, 89%, 75%, 0.766);
 }
 
 .sidebar-item::after {
@@ -75,12 +91,13 @@ body {
   grid-area: slider;
   margin-top: 2rem;
   padding: 2rem;
-  width: 80%;
-  margin-left: 10%;
+  width: 60%;
+  margin-left: 20%;
+  
 }
 
 .slider {
   width: 99%;
-  cursor: pointer;
-}
+  cursor: grab;
 
+}
